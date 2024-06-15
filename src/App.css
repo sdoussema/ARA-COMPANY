@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    width: 5px;
+   
+    
+  }
+  ::-webkit-scrollbar-track {
+    
+    background: transparent;
+    
+   
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #F3E7FF, #FAC8E7); 
+   
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    
+    background: linear-gradient(to bottom, #FBD38D, #F6AD55);
+  }
+  /* App.css */
+/* App.css */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
